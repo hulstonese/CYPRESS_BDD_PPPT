@@ -1,0 +1,21 @@
+{
+  "addCustomer": "button[ng-class = 'btnClass1']",
+  "createAccount": "button[ng-class = 'btnClass2']",
+  "customerListBtn": "button[ng-class = 'btnClass3']",
+  "fNameField": "input[ng-model = 'fName']",
+  "lNameField": "input[ng-model = 'lName']",
+  "pCodeField": "input[ng-model = 'postCd']",
+  "fName": "Paul",
+  "lName": "Smith",
+  "pCode": "NG5 7LF",
+  "createBtn": "button[type='submit']",
+  "customerList": "#userSelect",
+  "currencyList":"#currency",
+  "searchField": "input[ng-model='searchCustomer']",
+  "deleteBtn": "[ng-click='deleteCust(cust)']",
+  "mainHeading": "[class='mainHeading']",
+  "customerDropdownSelect": "[id='userSelect']",
+  "currencySelect": "[id='currency']",
+  "processBtn": "[id='userSelect']"
+
+}

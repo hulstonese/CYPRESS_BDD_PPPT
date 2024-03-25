@@ -1,0 +1,41 @@
+{
+  "name": "cypress_bdd_pppt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-tests": "npx cypress run --headless ",
+    "generate-multi-cucumber-html-report": "node cypress/support/cucumber-html-report.js",
+    "run-tagtest": "npx cypress run --spec cypress/e2e/bankerJourney1.feature   --env 'tags=@test and not @smoke'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cucumber": "^6.0.7",
+    "cypress": "^13.7.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-parallel": "^0.14.0",
+    "multiple-cucumber-html-reporter": "^3.6.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/bankerJourney1/steps.spec.cy.ts",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "json": {
+      "enabled": true
+    }
+   
+  }
+}
