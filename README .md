@@ -170,11 +170,11 @@ To generate multiple HTML reports in a Cypress TypeScript testing framework with
    
 Run script line 8 in package.json
 
-3. To run tests with HTML Multi report
+2. To run tests with HTML Multi report
    
 Run script line 10 in package.json
 
-5. To run tests with tags
+3. To run tests with tags
    
 Run script line 11 in package.json
 
