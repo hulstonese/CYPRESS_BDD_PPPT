@@ -163,3 +163,18 @@ To generate multiple HTML reports in a Cypress TypeScript testing framework with
    
 
 8. *View the reports*: After running the tests, the multiple HTML reports should be generated based on the configuration you provided.
+
+#### HOW TO RUN THE PROJECT ###
+
+1. To run tests headlessly
+Run script line 8 in package.json
+
+2. To run tests with HTML Multi report
+Run script line 10 in package.json
+
+3. To run tests with tags 
+Run script line 11 in package.json
+
+#### HOW TO SEE THE HTML MULTI REPORT ####
+
+Go to the reports folder after the test execution to see the generated HTML Report
