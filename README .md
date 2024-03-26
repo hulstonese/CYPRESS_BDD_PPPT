@@ -170,14 +170,38 @@ To generate multiple HTML reports in a Cypress TypeScript testing framework with
    
 Run script line 8 in package.json
 
-2. To run tests with HTML Multi report
-   
-Run script line 10 in package.json
+2. To run tests headed
 
-3. To run tests with tags
+Run script line 9 package.json
+
+3. To run tests with HTML Multi report
+   
+ a. Run script line 8 or 9 in package.json
+ 
+ b. copy cucumber.json file in the pine
+ 
+ c. paste the file in cucumber-json folder
+ 
+ d. Run script line 10
+ 
+ e. expand the report folder
+ 
+ f. html report is in the feature file in the report folder
+
+4. To run tests with tags
    
 Run script line 11 in package.json
 
 #### HOW TO SEE THE HTML MULTI REPORT ####
 
-Go to the reports folder after the test execution to see the generated HTML Report
+a. Run script line 8 or 9 in package.json
+
+ b. copy cucumber.json file in the pine
+ 
+ c. paste the file in cucumber-json folder
+ 
+ d. Run script line 10
+ 
+ e. expand the report folder
+ 
+ f. html report is in the feature file in the report folder
