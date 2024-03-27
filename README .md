@@ -202,6 +202,5 @@ a. Run script line 8 or 9 in package.json
  
  d. Run script line 10
  
- e. expand the report folder
  
- f. html report is in the feature file in the report folder
+ f. html report is in the index file
