@@ -203,4 +203,4 @@ a. Run script line 8 or 9 in package.json
  d. Run script line 10
  
  
- f. html report is in the index file
+ f. html report is in the index file in report folder
