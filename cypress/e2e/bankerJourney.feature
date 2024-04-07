@@ -14,7 +14,7 @@ A banker should be able to create, assign and delete users account
       | firstname | surname | postcode |
       | Paul      | Smith   | NG5 7LF  |
 
-  Scenario: A banker should be not be able to delete user created
+  Scenario: A banker should be able to delete user created
     When I enter valid user details:
       | fName | lName | pCode   |
       | James | Jones | NG5 7LF |
