@@ -3,6 +3,7 @@ import {Given, When, Then} from "@badeball/cypress-cucumber-preprocessor";
 
 Given(/^I am on the bank app$/, () => {
 	cy.visit('/')
+    cy.wait(1000)
 });
 
 When(/^I click the bank login$/, () => {

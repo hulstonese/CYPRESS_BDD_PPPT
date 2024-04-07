@@ -14,7 +14,7 @@ Background:
     And I click on create customer login
     
   @test  
-  Scenario: A banker should be not be able to create user validate in accountlist  
+  Scenario: A banker should be able to create user with datatable and validate in accountlist  
     When I enter valid user details:
       | fName | lName | pCode   |
       | James | Jones | NG5 7LF |
